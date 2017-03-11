@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "chmod -R +x scripts/ && chmod -R +x tests/"
+    "start": "chmod -R u+x scripts/ && chmod -R u+x tests/"
   },
   "repository": {
     "type": "git",
