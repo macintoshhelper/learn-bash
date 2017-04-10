@@ -1,0 +1,23 @@
+{
+  "name": "learn-bash",
+  "version": "1.0.0",
+  "description": "## Get started - Run `chmod -R +x scripts/` to make all scripts executable by global user - Run scripts with `./scripts/<script_name>` - Make tests executable by global with `chmod -R +x tests/`",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "chmod -R u+x scripts/ && chmod -R u+x tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macintoshhelper/learn-bash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macintoshhelper/learn-bash/issues"
+  },
+  "homepage": "https://github.com/macintoshhelper/learn-bash#readme"
+}
