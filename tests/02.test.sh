@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source $(dirname $0)/utils.sh
-source $(dirname $0)/../scripts/02.sh
+source tests/utils.sh;
+source $(dirname $0)/../scripts/02.sh;
 
 function test_num_chars_foo {
   local res=$(num_chars "foo")
